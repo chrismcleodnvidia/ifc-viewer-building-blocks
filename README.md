@@ -2,6 +2,10 @@
 
 An agent-readable reference for integrating IFC inspection and RTX rendering into a customer application. This is a guide to existing components, not a new viewer framework or an installable skill. Start with the host application's architecture and reuse the components below.
 
+## CAD conversion reference
+
+[CAD converter documentation and notes](docs/cad-converter-notes.md) links to the official NVIDIA documentation and summarises specific IFC observations, distinguishing implementation options from confirmed limitations.
+
 ## Component map
 
 | Capability | Source | How to use it |
