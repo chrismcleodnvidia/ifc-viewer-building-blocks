@@ -35,7 +35,7 @@ flowchart LR
     Selection --> RTX
 ```
 
-An existing USD exporter can supply the USD instead. The supplied identity reader specifically understands NVIDIA CAD Converter metadata; another exporter may require a different reader. No enriched exporter, original IFC lookup or authoritative JSON sidecar is required for inspection of the native CAD output.
+An existing USD exporter can supply the USD instead. The supplied identity reader specifically understands NVIDIA CAD Converter metadata; another exporter may require a different reader. Inspection reads the exported IFC properties directly from USD.
 
 ## IFC inspector: reusable lookup, host-owned UI
 
